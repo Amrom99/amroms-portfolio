@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #000638;
+    color: #fff;
+}
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+nav ul li:hover{
+    background-color: #ffffff4b;
+}
+main{
+    display: grid;
+    grid-template-columns: 100% 100% 100% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 100% 70% 100% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+}
+.first-line{
+    background-color: #25b79f;
+    grid-area: 1/1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.first-line .developer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-line .developer h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+.first-line .developer span{
+    font-size: 20px;
+}
+.first-line .down-arrow {
+    display: flex;
+    justify-content: center;
+}
+.first-line .down-arrow i{
+    font-size: 20px;
+    border: 3px solid;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10%;
+}
+.second-line{
+grid-area: 2/1;
+background-color: #060229;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+column-gap: 5%;
+}
+.second-line-left-side{
+    width: 40%;
+}
+.second-line-left-side h3{
+    font-size: 40px;
+}
+.second-line-left-side p{
+    width: 500px;
+    font-size: 21px;
+}
+.second-line-right-side{
+    width: 10%;
+}
+.second-line-right-side input{
+    height: 5px;
+    width: 400px;
+}
+.second-line img{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {
+    width: 90%; 
+    background-color: #04AA6D;
+}
+  .css {
+    width: 60%; 
+    background-color: #2196F3;
+}
+  .js {
+    width: 0%; 
+    background-color: #f44336;
+    color: red;
+}
+  .c-program {
+    width: 0%; 
+    background-color: #808080;
+    color: red;
+}
+.third-line{
+    grid-area: 3/1;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.third-line h2{
+   font-size: 40px;
+   padding-bottom: 50px;
+   text-align: center;
+   margin-top: 6%;
+   
+}
+.third{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+}
+.third-img1{
+grid-area: 2/2;
+margin-left: 20%;
+}
+.third-img2{
+    grid-area: 5/2;
+    margin-left: 20%;
+}
+.third-right2{
+    grid-area: 5/4;
+    margin-top: 20%;
+}
+.third-right{
+    grid-area: 2/4;
+    margin-top: 20%;
+}
+.port-img{ 
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.item-span{
+    background-color: #ffffff;
+    padding: 8px 30px;
+    border-bottom: 2px solid #034257;
+    color: black;
+}
+.item-span:hover{
+    background-color: rgb(3, 77, 90);
+    color: white;
+}
+.codPen{
+    color: #000638;
+    text-decoration: none;
+    font-size: 20px;
+}
+.span-right{
+    margin-left: 10px;
+}
+.fourth-line{
+    grid-area: 4/1;
+    background-color: rgb(1, 2, 75);
+    color: white;
+    text-align: center;
+}
+.fourth-line h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.fourth-line h5{
+    font-weight: normal;
+    font-size: 20px;
+}
+.fourth-line h5 i{
+    font-size: 15px;
+}
+.fourth-line .find-me {
+    font-size: 18px;
+    color: #034257;
+}
+.fourth-line .social-span{
+    font-size: 18px;
+}
+.fourth-line .social-span span{
+    padding: 8px 10px;
+}
+.fourth-line .social-span span a{
+    color: #00749b;
+    text-decoration: none;
+    font-family: a;
+}
